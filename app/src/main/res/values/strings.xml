@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">login page</string>
+    <string name="login_page_title">LOGIN PAGE</string>
+    <string name="hint_email">Enter E-mail</string>
+    <string name="hint_password">Enter password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="button_login">Login</string>
+    <string name="button_google">Continue with Google</string>
+    <string name="google_logo_desc">Google logo</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="or_divider">───── OR ─────</string>
+    <string name="new_user_register">New user? Register</string>
+</resources>

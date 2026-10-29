@@ -1,0 +1,8 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.LoginPage" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <item name="colorPrimary">@color/primary_blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+</resources>
