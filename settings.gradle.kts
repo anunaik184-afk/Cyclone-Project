@@ -22,6 +22,10 @@ dependencyResolutionManagement {
     }
 }
 
+<<<<<<< HEAD
 rootProject.name = "login page"
+=======
+rootProject.name = "shelter"
+>>>>>>> origin/shelter-page
 include(":app")
  

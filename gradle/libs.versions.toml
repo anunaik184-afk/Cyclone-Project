@@ -7,7 +7,10 @@ appcompat = "1.8.0"
 material = "1.14.0"
 activityKtx = "1.13.0"
 constraintlayout = "2.2.2"
+<<<<<<< HEAD
 playServicesAds = "25.5.0"
+=======
+>>>>>>> origin/shelter-page
 
 [libraries]
 junit = { group = "junit", name = "junit", version.ref = "junit" }
@@ -17,7 +20,10 @@ appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "a
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 activity-ktx = { group = "androidx.activity", name = "activity-ktx", version.ref = "activityKtx" }
 constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+<<<<<<< HEAD
 play-services-ads = { group = "com.google.android.gms", name = "play-services-ads", version.ref = "playServicesAds" }
+=======
+>>>>>>> origin/shelter-page
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
