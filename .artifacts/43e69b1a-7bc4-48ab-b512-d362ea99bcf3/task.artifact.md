@@ -1,0 +1,7 @@
+- [ ] Add OkHttp dependency to Gradle
+- [ ] Create chat message model (`ChatMessage.java`)
+- [ ] Create chat item layouts and RecyclerView adapter (`ChatAdapter.java`)
+- [ ] Design and update chat UI layout (`activity_main.xml`)
+- [ ] Implement chat logic, conversation history context, thinking animation, and Supabase Edge Function API calls in `MainActivity.java`
+- [ ] Create Supabase Edge Function (`cyclone-ai-chat/index.ts`) and database schema (`schema.sql`)
+- [ ] Build and verify Android project successfully
