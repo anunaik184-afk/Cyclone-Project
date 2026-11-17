@@ -1,0 +1,39 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="180dp"
+    android:viewportWidth="200"
+    android:viewportHeight="180">
+  <!-- Background white circular area -->
+  <path
+      android:fillColor="#FFFFFF"
+      android:pathData="M100,10 C150,10 190,50 190,100 C190,150 150,170 100,170 C50,170 10,150 10,100 C10,50 50,10 100,10 Z"/>
+
+  <!-- Outer Cyclone Swirl / Clouds -->
+  <path
+      android:fillColor="#1565C0"
+      android:pathData="M100,25 C135,25 165,50 170,85 C145,70 115,75 100,95 C85,75 55,70 30,85 C35,50 65,25 100,25 Z"/>
+  <path
+      android:fillColor="#42A5F5"
+      android:pathData="M100,45 C125,45 145,60 150,80 C135,70 115,75 100,90 C85,75 65,70 50,80 C55,60 75,45 100,45 Z"/>
+
+  <!-- Inner Swirl Eye -->
+  <path
+      android:fillColor="#E3F2FD"
+      android:pathData="M100,60 C112,60 122,70 120,82 C115,80 108,82 100,90 C92,82 85,80 80,82 C78,70 88,60 100,60 Z"/>
+
+  <!-- Shield on Left with Family Icons -->
+  <path
+      android:fillColor="#1976D2"
+      android:pathData="M45,85 L70,95 C70,120 55,135 45,145 C35,135 20,120 20,95 Z"/>
+  <path
+      android:fillColor="#FFFFFF"
+      android:pathData="M45,103 C48,103 50,101 50,98 C50,95 48,93 45,93 C42,93 40,95 40,98 C40,101 42,103 45,103 Z M45,107 C41.3,107 35,109 35,113 V116 H55 V113 C55,109 48.7,107 45,107 Z"/>
+
+  <!-- Sea, Waves and House on Right -->
+  <path
+      android:fillColor="#0D47A1"
+      android:pathData="M70,135 C90,130 110,130 130,135 C150,140 170,135 180,130 V155 H70 Z"/>
+  <path
+      android:fillColor="#FFB300"
+      android:pathData="M115,120 L135,110 L135,125 L115,125 Z"/>
+</vector>
