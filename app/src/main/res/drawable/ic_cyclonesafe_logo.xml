@@ -1,0 +1,127 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="150dp"
+    android:height="150dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Outer Circular Badge Gradient -->
+    <path
+        android:pathData="M100,10 A90,90 0 1,1 99.9,10 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="100"
+                android:startY="10"
+                android:endX="100"
+                android:endY="190"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#29B6F6"/>
+                <item android:offset="0.4" android:color="#0288D1"/>
+                <item android:offset="1.0" android:color="#0D47A1"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Dark Storm Clouds (Right Top) -->
+    <path
+        android:fillColor="#0D1B2A"
+        android:pathData="M115,20 C130,17 148,25 158,35 C170,32 185,40 188,55 C195,62 190,75 180,82 C165,90 145,85 132,92 C118,98 102,85 105,70 C110,55 110,35 115,20 Z"/>
+    <path
+        android:fillColor="#1B263B"
+        android:pathData="M112,32 C125,28 138,35 145,46 C155,42 170,50 173,61 C180,68 172,80 162,84 C147,88 132,80 122,84 C112,88 105,78 108,68 C112,57 110,42 112,32 Z"/>
+
+    <!-- Wind Swirl Lines -->
+    <path
+        android:strokeColor="#81D4FA"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M155,55 Q170,58 180,52"/>
+
+    <!-- Swirling Hurricane Vortex (Center) -->
+    <path
+        android:fillColor="#E1F5FE"
+        android:pathData="M100,35 C115,35 128,45 132,58 C136,71 124,82 110,79 C102,77 98,67 104,62 C110,57 118,60 114,68"/>
+    <path
+        android:fillColor="#4FC3F7"
+        android:pathData="M100,25 C80,27 65,45 75,65 C85,85 110,90 128,75 C138,65 135,52 122,55 C110,58 112,70 118,74"/>
+    <path
+        android:fillColor="#00B0FF"
+        android:pathData="M100,15 C70,20 45,50 60,80 C75,110 115,115 140,90 C155,75 150,55 135,62 C120,70 125,90 110,95 C95,100 80,85 85,70"/>
+
+    <!-- Ocean Waves (Bottom) -->
+    <path
+        android:fillColor="#0288D1"
+        android:pathData="M55,145 C75,140 105,143 135,138 C155,134 175,140 185,148 C185,165 165,173 135,175 C95,178 65,168 45,155 Z"/>
+    <path
+        android:fillColor="#01579B"
+        android:pathData="M70,153 C95,149 125,153 155,149 C170,147 180,154 178,162 C162,170 130,172 100,174 C80,174 65,166 70,153 Z"/>
+    <path
+        android:fillColor="#B3E5FC"
+        android:pathData="M60,148 C80,145 105,148 130,145 C150,143 165,148 175,153 C165,158 142,162 120,162 C95,162 75,157 60,148 Z"/>
+
+    <!-- Island Landscape with House & Palm Trees (Right) -->
+    <path
+        android:fillColor="#0A2342"
+        android:pathData="M115,145 C125,140 145,135 165,140 C175,142 185,147 188,153 C175,157 145,155 115,145 Z"/>
+
+    <!-- House -->
+    <path
+        android:fillColor="#1C2D42"
+        android:pathData="M135,133 L152,130 L152,143 L135,143 Z"/>
+    <path
+        android:fillColor="#0D1B2A"
+        android:pathData="M130,133 L144,120 L158,133 Z"/>
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M139,134 L147,134 L147,141 L139,141 Z"/>
+
+    <!-- Palm Trees -->
+    <path
+        android:strokeColor="#0A2342"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M168,143 Q172,125 165,110"/>
+    <path
+        android:fillColor="#0A2342"
+        android:pathData="M165,110 Q152,104 144,112 Q158,112 165,110 Z"/>
+    <path
+        android:fillColor="#0A2342"
+        android:pathData="M165,110 Q178,102 185,112 Q172,112 165,110 Z"/>
+    <path
+        android:fillColor="#0A2342"
+        android:pathData="M165,110 Q165,95 178,102 Q168,105 165,110 Z"/>
+
+    <!-- Protective Shield (Left) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#81D4FA"
+        android:strokeWidth="3"
+        android:pathData="M50,60 L80,70 V105 C50,135 50,135 50,150 C50,135 50,135 20,105 V70 Z"/>
+    <!-- Wait, let's fix shield path properly -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#81D4FA"
+        android:strokeWidth="3"
+        android:pathData="M50,55 L80,65 V102 C80,125 65,145 50,155 C35,145 20,125 20,102 V65 Z"/>
+    <path
+        android:fillColor="#E1F5FE"
+        android:pathData="M53,60 L77,68 V100 C77,120 63,138 53,146 C43,138 29,120 29,100 V68 Z"/>
+
+    <!-- Family Silhouettes Inside Shield -->
+    <!-- Adult 1 -->
+    <path android:fillColor="#0D47A1" android:pathData="M42,88 A4.5,4.5 0 1,1 41.9,88 Z"/>
+    <path android:fillColor="#0D47A1" android:pathData="M36,96 C36,93 39,92 42,92 C45,92 48,93 48,96 V110 H36 Z"/>
+
+    <!-- Adult 2 -->
+    <path android:fillColor="#0D47A1" android:pathData="M58,88 A4.5,4.5 0 1,1 57.9,88 Z"/>
+    <path android:fillColor="#0D47A1" android:pathData="M52,96 C52,93 55,92 58,92 C61,92 64,93 64,96 V110 H52 Z"/>
+
+    <!-- Child 1 -->
+    <path android:fillColor="#0288D1" android:pathData="M42,110 A3,3 0 1,1 41.9,110 Z"/>
+    <path android:fillColor="#0288D1" android:pathData="M38,114 C38,112 40,111.5 42,111.5 C44,111.5 46,112 46,114 V122 H38 Z"/>
+
+    <!-- Child 2 -->
+    <path android:fillColor="#0288D1" android:pathData="M58,110 A3,3 0 1,1 57.9,110 Z"/>
+    <path android:fillColor="#0288D1" android:pathData="M54,114 C54,112 56,111.5 58,111.5 C60,111.5 62,112 62,114 V122 H54 Z"/>
+
+</vector>

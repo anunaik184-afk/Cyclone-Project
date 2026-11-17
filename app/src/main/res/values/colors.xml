@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand Primary Colors - CycloneSafe Theme -->
+    <color name="primary_blue">#0288D1</color>
+    <color name="primary_blue_dark">#01579B</color>
+    <color name="primary_blue_light">#E1F5FE</color>
+    <color name="accent_blue">#00B0FF</color>
+    <color name="blue_hover">#0277BD</color>
+
+    <!-- Neutral & Background Colors -->
+    <color name="background_white">#FFFFFF</color>
+    <color name="card_background">#FAFAFA</color>
+    <color name="input_background">#F8FAFC</color>
+    <color name="input_stroke">#CBD5E0</color>
+    <color name="divider_color">#E2E8F0</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#1E293B</color>
+    <color name="text_secondary">#64748B</color>
+    <color name="text_hint">#94A3B8</color>
+    <color name="text_white">#FFFFFF</color>
+
+    <!-- Feedback Colors -->
+    <color name="success_text">#1B5E20</color>
+    <color name="success_bg">#E8F5E9</color>
+    <color name="error_text">#B71C1C</color>
+    <color name="error_bg">#FFEBEE</color>
+
+    <!-- Base App Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

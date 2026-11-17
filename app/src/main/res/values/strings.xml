@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">CycloneSafe</string>
+    <string name="app_tagline">Be Aware • Be Prepared • Be Safe</string>
+    <string name="forgot_password_title">Forgot Password?</string>
+    <string name="forgot_password_subtitle">Enter your registered email address and we\'ll send you a link to reset your password.</string>
+    <string name="email_hint">Email Address</string>
+    <string name="email_empty_error">Email address is required.</string>
+    <string name="email_invalid_error">Please enter a valid email address.</string>
+    <string name="send_reset_link">Send Reset Link</string>
+    <string name="sending_reset_link">Sending Link…</string>
+    <string name="or_divider">OR</string>
+    <string name="remember_password_text">Remember your password?</string>
+    <string name="back_to_login">Log In</string>
+    <string name="reset_success_message">Password reset link sent! Check your email inbox for instructions.</string>
+    <string name="reset_failed_message">Could not send password reset email. Please try again.</string>
+    <string name="back_button_desc">Go back</string>
+    <string name="logo_desc">CycloneSafe Logo</string>
+    <string name="status_icon_desc">Status icon</string>
+</resources>
